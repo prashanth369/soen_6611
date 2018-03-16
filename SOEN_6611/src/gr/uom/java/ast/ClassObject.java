@@ -301,4 +301,9 @@ public class ClassObject extends ClassDeclarationObject {
 
         return sb.toString();
     }
+
+	public List<FieldObject> getFieldList() {
+		
+		return fieldList;
+	}
 }

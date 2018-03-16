@@ -1,4 +1,4 @@
-package gr.uom.java.jdeodorant.metrics.reusability;
+package gr.uom.java.jdeodorant.implementedMetrics;
 
 import java.io.File;
 import java.util.HashMap;
