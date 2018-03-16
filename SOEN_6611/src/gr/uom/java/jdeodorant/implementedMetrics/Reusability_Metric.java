@@ -1,15 +1,10 @@
 package gr.uom.java.jdeodorant.implementedMetrics;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
+
 import gr.uom.java.jdeodorant.implementedMetrics.ImplementationOfMetrics;
-import gr.uom.java.ast.MethodObject;
-import gr.uom.java.ast.Access;
-import gr.uom.java.ast.ClassObject;
+
 import gr.uom.java.ast.SystemObject;
+import gr.uom.java.jdeodorant.implementedMetrics.WritingtheValues;
 
 // Implementation for QMOOD reusability metric 
 
@@ -17,6 +12,7 @@ public class Reusability_Metric {
 	
 	
 	public static double reusabilityMetric(SystemObject system) {
+		String sk;
 		
 		double coupling   = ImplementationOfMetrics.couplingMetric(system);
 		double cohesion   = ImplementationOfMetrics.cohesionMetric(system);
@@ -28,6 +24,8 @@ public class Reusability_Metric {
 		System.out.println("coupling: " + coupling + " " + "chosion: " + cohesion + " " + "messaging: " + messaging + " " + "design size: " + designSize);
 		System.out.println("Reusability is : " + reusabilityValue);
 			  
+		sk="The Reusability Design property for the system is : "+ reusabilityValue;
+		WritingtheValues.WritingtheSyatemvalues(sk);
 		
 		return  reusabilityValue;
 	}

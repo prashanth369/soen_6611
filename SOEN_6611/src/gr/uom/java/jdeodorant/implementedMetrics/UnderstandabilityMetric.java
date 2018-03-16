@@ -2,11 +2,12 @@ package gr.uom.java.jdeodorant.implementedMetrics;
 
 import gr.uom.java.ast.SystemObject;
 
-
+import gr.uom.java.jdeodorant.implementedMetrics.WritingtheValues;
 //Implementation for QMOOD Understandability metric 
 public class UnderstandabilityMetric {
 	
 	public static double understandibiityMetric(SystemObject system) {
+		String sk;
 		
 		double abstraction   = ImplementationOfMetrics.calculateAbstraction(system);
 		double encapsulation   = ImplementationOfMetrics.calculateEncapsulation(system);
@@ -25,7 +26,8 @@ public class UnderstandabilityMetric {
 		System.out.println("Complexity: " + complexity);
 		System.out.println("Design Size: " + designsize);
 
-		
+		sk="The Understandibility design property of the system is : " + understandibilityValue;
+		WritingtheValues.WritingtheSyatemvalues(sk);
 		
 		return  understandibilityValue;
 	}
