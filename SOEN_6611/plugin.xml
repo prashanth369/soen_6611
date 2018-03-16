@@ -92,7 +92,7 @@
                  class="gr.uom.java.jdeodorant.refactoring.actions.MetricImplementationMenu"
                  icon="icons/compass.png"
                  id="gr.uom.java.jdeodorant.actions.FlexibilityV3"
-                 label="Understandability_Metric"
+                 label="Flexibility_Metric"
                  menubarPath="MetricImplementationMenu/sampleGroup"
                  tooltip="Flexibility_Metric">
          </action>
