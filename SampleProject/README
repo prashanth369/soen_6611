@@ -1,0 +1,12 @@
+This is a Sample Project 
+
+We use this 5 classes  Project source code to validate eclipse plugins and tools we used and developed during the execution of our project
+
+Eclipse Ready Plugins
+======================
+eclipse Metric 
+
+Eclipse Extended Plugins
+========================
+JDeodorant Base: https://github.com/tsantalis/JDeodorant 
+Our Extension: https://github.com/prashanth369/soen_6611/tree/master/JDeodorantMetricsExtension 
