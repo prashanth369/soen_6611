@@ -9,7 +9,7 @@ public class WritingtheValues {
 	public static void Writingthevalues(String value) {
 	try {
 		
-		String path="//SOEN_6611/input.txt";
+		String path="/Users/prashanthreddysomireddy/Desktop/input.txt";
 	
 	FileWriter fr=new FileWriter(path);
 	BufferedWriter bw=new BufferedWriter(fr);
@@ -22,7 +22,7 @@ public class WritingtheValues {
 	public static void WritingtheSyatemvalues(String value) {
 		try {
 			
-			String path="//SOEN_6611/input2.txt";
+			String path="input2.txt";
 		
 		FileWriter fr=new FileWriter(path);
 		BufferedWriter bw=new BufferedWriter(fr);
