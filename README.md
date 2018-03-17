@@ -11,7 +11,7 @@ It also calucates Quality Attributes like
 -Understandibility
 -Flexibility
 
-SampleTest 
+SampleProject 
 ==========================
 We use this 5 classes  Project source code to validate eclipse plugins and tools we used and developed during the execution of our project
 
@@ -23,7 +23,7 @@ How to Run
 	* eclipse Version: Oxygen.2 Release (4.7.2) Build id: 20171218-0600 
 	* Java version 1.8.0_144
 1. Run the JDeodorantMetricsExtension as an Eclipse Application
-1. Import the SampleTest as a Java Project on the new eclipse window which will open once you execute step 3
+1. Import the SampleProject as a Java Project on the new eclipse window which will open once you execute step 3
 1. Click on the Test Project and use the Metrics Menu to calcualte the Metrics
 
 Have fun!
