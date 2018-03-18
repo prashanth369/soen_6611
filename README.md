@@ -19,11 +19,13 @@ data-collection
 ==========================
 This folder has the results of running the eclipse metric tool and other tools in different formats (XLS, CSV and XML)
 1. Internal Metrics
+	* graphs (this folder shows some essential external metric graphs) 
 1. External Metrics including 
 	* Number of Bugs per Version
 	* Test Coverage per version
 	* Number of commits
 	* Number of files changed
+	* graphs (this folder shows some essential internal metric graphs) 
 
 1. Test Project Internal Metrics
 
