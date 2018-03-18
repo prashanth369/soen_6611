@@ -15,6 +15,17 @@ SampleProject
 ==========================
 We use this 5 classes  Project source code to validate eclipse plugins and tools we used and developed during the execution of our project
 
+data-collection
+==========================
+This folder has the results of running the eclipse metric tool and other tools in different formats (XLS, CSV and XML)
+1. Internal Metrics
+1. External Metrics including 
+	* Number of Bugs per Version
+	* Test Coverage per version
+	* Number of commits
+	* Number of files changed
+
+1. Test Project Internal Metrics
 
 How to Run
 ===========
